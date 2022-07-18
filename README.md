@@ -1,4 +1,54 @@
 # ANTSOME
+22.07.18
+**KioskApp(화면전환,타이머구현,버튼이벤트→network check,list,뒤로가기 수정) = 0시간(목요일까지지만 집중해서 시간 줄이기)**
+
+AndroidStudio **Print** 찍기 = `System.*out*.println("123");`
+
+**Network** = [https://developer.android.com/training/basics/network-ops/managing?hl=ko](https://developer.android.com/training/basics/network-ops/managing?hl=ko)
+
+[https://daldalhanstory.tistory.com/184](https://daldalhanstory.tistory.com/184)
+
+[https://gist.github.com/PasanBhanu/730a32a9eeb180ec2950c172d54bb06a](https://gist.github.com/PasanBhanu/730a32a9eeb180ec2950c172d54bb06a)
+
+**Network Check** = [https://soo0100.tistory.com/1305](https://soo0100.tistory.com/1305)
+
+**App에서 설정으로 이동하기** = [https://kanais2.tistory.com/291](https://kanais2.tistory.com/291)
+
+**Manifest** = [https://developer.android.com/guide/topics/manifest/service-element?hl=ko](https://developer.android.com/guide/topics/manifest/service-element?hl=ko)
+
+**Alert,Button** = [https://lktprogrammer.tistory.com/155](https://lktprogrammer.tistory.com/155), 
+
+### **단일 선택 목록 (List) 추가하기**
+
+먼저 다이얼로그 창에 Setting 할 문자열 배열 리소스를 /res/values/strings.xml 경로 밑에 추가합니다.
+
+```jsx
+예시)
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_sub">SubActivity</string>
+
+    <string-array name = "LAN">
+        <item>"Android"</item>
+        <item>"Java"</item>
+        <item>"C/C++"</item>
+    </string-array>
+</resources>
+```
+
+**ListView만들기 =** [https://ddaengddaeng.tistory.com/27](https://ddaengddaeng.tistory.com/27)
+
+**네트워크 연결 안됐을 때 → alert → setting(network setting)**
+
+![스크린샷, 2022-07-18 18-54-16.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c93b3de-8bfe-474d-83f1-ea9caa6d5208/스크린샷_2022-07-18_18-54-16.png)
+
+**list만들기**
+
+**통신받기**
+
+```
+
+
 22.07.15 KioskApp 추가
 **KioskApp(화면전환,타이머구현,버튼이벤트→network check,list,뒤로가기 수정) = 0시간**
 
