@@ -1,4 +1,96 @@
 # ANTSOME
+22.07.20
+KioskApp
+
+2022.07.20(수) 업무 예정 사항
+
+1. Kiosk 과제
+- 상품 구매 및 완료 목록 구현
+
+-ListView, Image URL, JSONObject
+
+2.  로직 과제
+
+- 로직 문제 풀기
+
+[https://kumgo1d.tistory.com/6](https://kumgo1d.tistory.com/6)
+
+[https://deumdroid.tistory.com/entry/안드로이드-스튜디오-리스트-뷰-ListView-사용하기](https://deumdroid.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%B7%B0-ListView-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+
+**ListView** = [https://itstudy-mary.tistory.com/207](https://itstudy-mary.tistory.com/207)
+
+[https://blog.naver.com/hke3255/222313680264](https://blog.naver.com/hke3255/222313680264)
+
+[https://webnautes.tistory.com/1190](https://webnautes.tistory.com/1190)
+
+[https://bbaktaeho-95.tistory.com/66](https://bbaktaeho-95.tistory.com/66)
+
+[https://lktprogrammer.tistory.com/163](https://lktprogrammer.tistory.com/163)
+
+![스크린샷 2022-07-20 오후 11.32.19.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07c2e96c-2f2f-4bb2-8b25-b6afeac0ab97/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-07-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11.32.19.png)
+
+XML파일 만들기 = [https://myyamyam001.tistory.com/11](https://myyamyam001.tistory.com/11)
+
+Json = [https://itstudy-mary.tistory.com/88?category=902777](https://itstudy-mary.tistory.com/88?category=902777)
+
+tools:context = [https://dreamaz.tistory.com/229](https://dreamaz.tistory.com/229)
+
+```java
+
+xml
+<LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/poster"
+            android:text="과자"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            tools:srcCompat="@tools:sample/backgrounds/scenic[2]" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/movieName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="가격" />
+
+            <TextView
+                android:id="@+id/grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="수량" />
+        </LinearLayout>
+    </LinearLayout>
+```
+
+로직 = [https://semicolon-dev.tistory.com/46](https://semicolon-dev.tistory.com/46)
+
+swift로직 = [https://greendreamtrre.tistory.com/46](https://greendreamtrre.tistory.com/46)
+
+**리스트** = **contentVIew 개념**
+
+객체지향프로그래밍 = [https://www.youtube.com/watch?v=vrhIxBWSJ04](https://www.youtube.com/watch?v=vrhIxBWSJ04)
+
+**JSONObject{}다루기, JSONString, JSONArray{[]}** = [https://blog.naver.com/PostView.naver?blogId=jang0_0yw&logNo=222448275383&categoryNo=25&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView](https://blog.naver.com/PostView.naver?blogId=jang0_0yw&logNo=222448275383&categoryNo=25&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView),
+
+[https://stickode.tistory.com/75](https://stickode.tistory.com/75), [https://codechacha.com/ko/java-convert-object-to-json-and-write-to-file/](https://codechacha.com/ko/java-convert-object-to-json-and-write-to-file/)
+**MAP이랑 같은 개념**
+**JSON 확장자 파일** = .json
+
 22.07.18
 **KioskApp(화면전환,타이머구현,버튼이벤트→network check,list,뒤로가기 수정) = 0시간(목요일까지지만 집중해서 시간 줄이기)**
 
